@@ -1,0 +1,38 @@
+.icon {
+  cursor: pointer;
+
+  &.smallSize {
+    height: 16px;
+    width: 16px;
+  }
+
+  &.mediumSize {
+    height: 24px;
+    width: 24px;
+  }
+
+  &.largeSize {
+    height: 32px;
+    width: 32px;
+  }
+
+  &.neutral-white {
+    color: var(--brand-color-neutral-white);
+  }
+
+  &.neutral-black {
+    color: var(--brand-color-neutral-black);
+  }
+
+  &.primary {
+    color: var(--brand-color-primary);
+  }
+
+  &.secondary {
+    color: var(--brand-color-secondary);
+  }
+
+  &.tertiary {
+    color: var(--brand-color-tertiary);
+  }
+}
