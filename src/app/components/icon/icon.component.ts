@@ -1,7 +1,7 @@
 import { Component, Input } from '@angular/core';
 
-import { sizeType } from '../../shared/types/sizes.type';
-import { colorType } from '../../shared/types/colors.type';
+import { SizeType } from '../../shared/types/sizes.type';
+import { ColorType } from '../../shared/types/colors.type';
 
 @Component({
   selector: 'app-icon',
@@ -9,9 +9,9 @@ import { colorType } from '../../shared/types/colors.type';
   styleUrl: './icon.component.scss',
 })
 export class IconComponent {
-  @Input() color: string | colorType = 'neutral-white';
+  @Input() color: string | ColorType = 'neutral-white';
   @Input() iconClass!: string;
-  @Input() iconSize: string | sizeType = 'medium';
+  @Input() iconSize: string | SizeType = 'medium';
 
   public get size(): string {
     return this.iconSize === 'small' ? 'smallSize' : this.iconSize === 'medium' ? 'mediumSize' : 'largeSize';
