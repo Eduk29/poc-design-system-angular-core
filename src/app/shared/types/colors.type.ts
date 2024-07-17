@@ -1,1 +1,1 @@
-export type colorType = 'primary' | 'secondary' | 'tertiary' | 'neutral-white' | 'neutral-black';
+export type ColorType = 'primary' | 'secondary' | 'tertiary' | 'neutral-white' | 'neutral-black';
