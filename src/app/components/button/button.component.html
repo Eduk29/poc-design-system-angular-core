@@ -1,0 +1,6 @@
+<!-- Fab Button -->
+@if (isFabButton && displayButton) {
+  <button (click)="dispatchClickEvent($event)" class="button-fab" [ngClass]="color">
+    <app-icon [iconClass]="icon" [color]="iconColor"></app-icon>
+  </button>
+}
