@@ -1,0 +1,16 @@
+@if (isExpandedMode && displayMasthead) {
+  <div class="masthead-expanded" [ngClass]="color">
+    @if (title) {
+      <h2 class="masthead-expanded_title">{{ title }}</h2>
+    }
+    @if (subtitle) {
+      <h5 class="masthead-expanded_subtitle">{{ subtitle }}</h5>
+    }
+  </div>
+} @else {
+  <div class="masthead-collapsed" [ngClass]="color">
+    @if (title) {
+      <h6 class="masthead-collapsed_title">{{ title }}</h6>
+    }
+  </div>
+}
