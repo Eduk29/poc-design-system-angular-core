@@ -1,0 +1,23 @@
+.navbar {
+  align-items: center;
+  background-color: var(--brand-color-primary);
+  -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 1);
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 1);
+  color: var(--brand-color-neutral-white);
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  min-height: 50px;
+  padding: 10px 20px;
+  overflow: auto;
+  width: calc(100% - 2 * (20px));
+
+  > .navbar-title {
+    margin: 5px 10px;
+  }
+
+  .navbar-icon {
+    margin-right: 20px;
+  }
+}
