@@ -1,7 +1,7 @@
 import { Component, Input } from '@angular/core';
 
-import { SizeType } from '../../shared/types/sizes.type';
-import { ColorType } from '../../shared/types/colors.type';
+import { ColorType } from '@design-system/shared/types/colors.type';
+import { SizeType } from '@design-system/shared/types/sizes.type';
 
 @Component({
   selector: 'app-icon',
