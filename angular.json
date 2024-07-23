@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "poc-design-system-angular-core": {
+    "design-system-angular-core": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -24,7 +24,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/poc-design-system-angular-core",
+            "outputPath": "dist/design-system-angular-core",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": ["zone.js"],
@@ -62,10 +62,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "poc-design-system-angular-core:build:production"
+              "buildTarget": "design-system-angular-core:build:production"
             },
             "development": {
-              "buildTarget": "poc-design-system-angular-core:build:development"
+              "buildTarget": "design-system-angular-core:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -73,7 +73,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "poc-design-system-angular-core:build"
+            "buildTarget": "design-system-angular-core:build"
           }
         },
         "test": {

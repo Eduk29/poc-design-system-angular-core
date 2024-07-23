@@ -1,6 +1,22 @@
 {
-  "name": "poc-design-system-angular-core",
+  "name": "design-system-angular-core",
   "version": "0.0.1",
+  "description": "A simple design system for Angular Apps",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eduk29/design-system-angular-core.git"
+  },
+  "keywords": [
+    "design system",
+    "angular",
+    "components"
+  ],
+  "author": "José Eduardo Trindade E Marques",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Eduk29/design-system-angular-core/issues"
+  },
+  "homepage": "https://github.com/Eduk29/design-system-angular-core#readme",
   "scripts": {
     "ng": "ng",
     "build": "ng build",
